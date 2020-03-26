@@ -1,0 +1,38 @@
+.kotak {
+    background-color: #2c1230 ;
+}
+
+.display{
+    margin-bottom: 12em;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .buton{
+      background-color: green;
+      padding: 10px 10px 10px 10px;
+      border-radius: 50%;
+      cursor: pointer;
+
+  }
+
+  .menu{
+      background-color: green;
+      padding: 0px 10px 0px 10px;
+      cursor: pointer;
+
+
+  }
